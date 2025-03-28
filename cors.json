@@ -1,6 +1,6 @@
 [
     {
-      "origin": ["http://localhost:3000", "https://lable-me-1.vercel.app"],
+      "origin": ["http://localhost:3000", "https://labeling-sable.vercel.app/"],
       "method": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
       "maxAgeSeconds": 3600,
       "responseHeader": ["Content-Type", "Authorization"]
