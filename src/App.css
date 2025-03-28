@@ -1,0 +1,38 @@
+.App {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  }
+  
+  .logout-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: #c82333;
+    transform: translateY(-1px);
+  }
+  
+  .logout-button svg {
+    width: 16px;
+    height: 16px;
+  }
+  
+  img {
+    width: 300px;
+    margin: 10px;
+  }
